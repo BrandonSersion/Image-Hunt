@@ -1,0 +1,24 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Times New Roman", Georgia, Serif;}  
+  
+#title {
+  padding-top: 2em; }
+
+
+#pagination {
+  font-size:5em;
+}
+
+.modal-dialog{
+  position: relative;
+  display: table; /* This is important */ 
+  overflow-y: auto;    
+  overflow-x: auto;
+  width: auto;
+  height: auto;
+  max-width:50%;
+  max-height:50%;
+  /* background-size:cover; */
+  
+}
